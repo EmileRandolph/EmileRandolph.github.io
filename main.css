@@ -48,7 +48,7 @@ a:hover{
 }
 
 .picture{
-    width: 100px;
+    width: auto;
     height: 200px;
     border-radius: 5%;
 }
