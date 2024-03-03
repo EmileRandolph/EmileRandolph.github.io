@@ -47,6 +47,12 @@ a:hover{
     border-radius: 5%;
 }
 
+.picture{
+    width: 100px;
+    height: 200px;
+    border-radius: 5%;
+}
+
 #homeText{
     width:800px;
     padding:10px;
@@ -54,3 +60,4 @@ a:hover{
     left:260px;
     bottom:200px;
 }
+
