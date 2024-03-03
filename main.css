@@ -46,3 +46,11 @@ a:hover{
 .roundedEdges{
     border-radius: 5%;
 }
+
+#homeText{
+    width:800px;
+    padding:10px;
+    position: relative;
+    left:260px;
+    bottom:200px;
+}
