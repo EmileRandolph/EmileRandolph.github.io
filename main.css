@@ -4,16 +4,22 @@ html{
 }
 
 body{
-    width: 80%;
+    width: 90%;
     margin:auto;
-    padding: 10px;
     font-family: 'Quicksand', sans-serif;
+    border-width: thin;
+    display: block;
+    border: rgb(136, 114, 48);
+    box-sizing: border-box;
+    border-style: hidden solid solid solid;
+    border-radius: 10px;
 }
 
 header{
     background-size: cover;
     background-color: rgb(136, 114, 48);
     font-family: 'Playfair Display', serif;
+    border-radius: 10px 10px 0px 0px;
 }
 
 footer{
@@ -31,6 +37,11 @@ nav li{
     border-radius: 10px 10px 0px 0px;
 }
 
+span{
+    flex-direction: row;
+    display: flex;
+}
+
 a{
     color: rgb(160, 137, 68);
     text-decoration: none;
@@ -43,7 +54,9 @@ a:visited{
 a:hover{
     color: #b90;
 }
-
+h1{
+    padding: 5px;
+}
 .roundedEdges{
     border-radius: 5%;
 }
@@ -63,30 +76,19 @@ a:hover{
     margin-right: auto;
 }
 
-#project1{
-    position: relative;
+.project{
     width: 400px;
     background-color: rgb(199, 182, 130);
     padding: 5px;
+    margin: 5px;
+    border-radius: 5%;
 }
 
-#project2{
-    position: relative;
-    bottom: 565px;
-    left:420px;
-    width: 400px;
-    background-color: rgb(199, 182, 130);
+#homeText{
     padding: 5px;
-
+    margin: 5px;
 }
 
-#project3{
-    position: relative;
-    bottom: 1130px;
-    left:840px;
-    width: 400px;
-    background-color: rgb(199, 182, 130);
-    padding: 5px;
 
-}
+
 
