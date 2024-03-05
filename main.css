@@ -26,6 +26,11 @@ footer{
     margin: 10px;
 }
 
+span{
+    flex-direction: row;
+    display: flex;
+}
+
 nav li{
     display: inline-block;
     background-color: #eda;
@@ -35,11 +40,6 @@ nav li{
     margin: 0px 2px;
     text-align: center;
     border-radius: 10px 10px 0px 0px;
-}
-
-span{
-    flex-direction: row;
-    display: flex;
 }
 
 a{
