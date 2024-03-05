@@ -62,3 +62,29 @@ a:hover{
     bottom:350px;
 }
 
+#project1{
+    position: relative;
+    width: 400px;
+    background-color: rgb(199, 182, 130);
+    padding: 5px;
+}
+
+#project2{
+    position: relative;
+    bottom: 570px;
+    left:420px;
+    width: 400px;
+    background-color: rgb(199, 182, 130);
+    padding: 5px;
+
+}
+
+#project3{
+    position: relative;
+    bottom: 1140px;
+    left:840px;
+    width: 400px;
+    background-color: rgb(199, 182, 130);
+    padding: 5px;
+
+}
