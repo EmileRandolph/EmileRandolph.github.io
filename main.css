@@ -54,12 +54,13 @@ a:hover{
     border-radius: 5%;
 }
 
-#homeText{
-    width:800px;
-    padding:10px;
-    position: relative;
-    left:260px;
-    bottom:350px;
+.projectPicture{
+    width: auto;
+    height: 300px;
+    border-radius: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #project1{
@@ -71,7 +72,7 @@ a:hover{
 
 #project2{
     position: relative;
-    bottom: 570px;
+    bottom: 565px;
     left:420px;
     width: 400px;
     background-color: rgb(199, 182, 130);
@@ -81,10 +82,11 @@ a:hover{
 
 #project3{
     position: relative;
-    bottom: 1140px;
+    bottom: 1130px;
     left:840px;
     width: 400px;
     background-color: rgb(199, 182, 130);
     padding: 5px;
 
 }
+
